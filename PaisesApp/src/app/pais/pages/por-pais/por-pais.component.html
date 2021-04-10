@@ -1,0 +1,47 @@
+<h2>Por pais</h2>
+<hr>
+
+
+<div class="rwo">
+    <div class="col">
+        <form (ngSubmit)="buscar()" autocomplete="off">
+            <input type="text"
+                   name="termino"
+                   placeholder="Buscar Pais"
+                   class="form-control"
+                   [(ngModel)]="termino">
+        </form>
+    </div>
+</div>
+
+<hr>
+
+<div class="alert alert-danger">
+    No se encontro nada con el termino QQQQQQQQQ
+</div>
+
+<div class="row">
+    <div class="col">
+        <table class="table table-hover">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Bandera</th>
+                    <th>Nombre</th>
+                    <th>Poblacion</th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1</td>
+                    <td>bandera</td>
+                    <td>nombrerrerer</td>
+                    <td>pob</td>
+                    <td>LINK</td>
+                </tr>
+
+            </tbody>
+        </table>
+    </div>
+</div>
