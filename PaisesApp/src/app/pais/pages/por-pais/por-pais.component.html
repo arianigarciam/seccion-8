@@ -4,7 +4,13 @@
 
 <div class="rwo">
     <div class="col">
-        <app-pais-input></app-pais-input>
+        <app-pais-input
+            (onDebounce)="sugerencias( $event )"
+            (onEnter)="buscar( $event )"
+            placeholder="Buscar Pais" >
+           
+            
+        </app-pais-input>
     </div>
 </div>
 
